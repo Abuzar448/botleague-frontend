@@ -5,6 +5,7 @@ import Competitions from './components/Compitions&Events';
 import UserJourney from './components/UserJourney';
 import AboutAndCategories from './components/AboutAndCategories';
 import CompetitionDisciplines from './components/Sports';
+import LeagueAdvantage from './components/LeagueAdvantage';
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <UserJourney></UserJourney>
       <AboutAndCategories></AboutAndCategories>
       <CompetitionDisciplines></CompetitionDisciplines>
+      <LeagueAdvantage></LeagueAdvantage>
     </div>
   )
 }
