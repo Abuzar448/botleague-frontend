@@ -29,7 +29,6 @@ export default function UserJourney() {
     <section id="journey" className="w-full bg-[#030303] text-white py-24 px-6 sm:px-10 lg:px-12 font-sans border-b border-zinc-900 select-none">
       <div className="max-w-[1440px] mx-auto text-center">
         
-        {/* Section Top Headers */}
         <span className="text-[#E63946] font-bold tracking-widest text-sm uppercase block mb-3">
           USER JOURNEY
         </span>
@@ -40,29 +39,22 @@ export default function UserJourney() {
           Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum
         </p>
 
-        {/* Journey Timeline Wrapper */}
         <div className="relative w-full max-w-5xl mx-auto mt-12">
           
-          {/* Horizontal Blue Connecting Line - Background Layer */}
           <div className="absolute top-[44px] left-[10%] right-[10%] h-[3px] bg-blue-700/80 hidden md:block z-0 shadow-[0_0_12px_rgba(29,78,216,0.5)]" />
 
-          {/* Steps Map Flex Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-12 md:gap-4 relative z-10">
             {steps.map((item, idx) => (
               <div key={idx} className="flex flex-col items-center group">
-                
-                {/* Circular Outer Heavy Node ring */}
+
                 <div className="w-24 h-24 rounded-full bg-[#121214] border-4 border-zinc-800 flex items-center justify-center relative transition-all duration-300 group-hover:border-zinc-700 shadow-md">
-                  {/* Inside Concentric Blue Ring Circuit */}
                   <div className="absolute inset-2 rounded-full border-2 border-blue-600/70 flex items-center justify-center transition-all duration-300 group-hover:border-blue-500 group-hover:shadow-[0_0_15px_rgba(37,99,235,0.6)] bg-[#0d0d0f]">
                     {item.icon}
                   </div>
                 </div>
 
-                {/* Vertical Tick Indicator Line directly matching the design layout */}
                 <div className="w-[1px] h-6 bg-zinc-700 mt-5 mb-3 transition-colors group-hover:bg-zinc-500" />
 
-                {/* Text Layout Metadata */}
                 <span className="text-[#E63946] font-bold text-xs tracking-widest block mb-2">
                   {item.step}
                 </span>

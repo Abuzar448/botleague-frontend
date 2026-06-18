@@ -54,11 +54,9 @@ export default function AboutAndCategories() {
   return (
     <section className="w-full bg-[#111111] text-white py-24 px-6 sm:px-10 lg:px-12 font-sans border-b border-zinc-900 select-none">
       <div className="max-w-[1440px] mx-auto">
-        
-        {/* ================= UPPER PART: WHAT IS BOTLEAGUE ================= */}
+ 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-24">
           
-          {/* Left Column: Text Grid */}
           <div className="lg:col-span-8 flex flex-col justify-start">
             <h2 className="text-4xl sm:text-6xl font-black uppercase tracking-tight mb-16 text-white">
               WHAT IS BOTLEAGUE?
@@ -79,7 +77,6 @@ export default function AboutAndCategories() {
             </div>
           </div>
 
-          {/* Right Column: Technical Diagram Vector Art */}
           <div className="lg:col-span-4 flex justify-center lg:justify-end items-center">
             <div className="w-full max-w-[360px] aspect-square flex items-center justify-center p-2">
               <img 
@@ -92,25 +89,21 @@ export default function AboutAndCategories() {
 
         </div>
 
-        {/* ================= LOWER PART: CATEGORIES ================= */}
         <div className="mt-20">
           <h2 className="text-4xl sm:text-6xl font-black uppercase tracking-tight mb-16 text-white">
             CATEGORIES
           </h2>
 
-          {/* Responsive 4-Column Grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.map((card, idx) => (
               <div
                 key={idx}
                 className="p-8 rounded-xl flex flex-col justify-between min-h-[380px] transition-all duration-300 group bg-[#161619] border border-zinc-800 hover:border-[#F4D03F]/60 hover:shadow-xl hover:shadow-[#F4D03F]/5"
               >
-                {/* Icon Wrapper Slot */}
                 <div className="mb-6 flex justify-start items-center h-16">
                   {card.icon}
                 </div>
 
-                {/* Content Layout */}
                 <div className="flex-grow flex flex-col justify-end mb-6">
                   <h3 className="text-2xl font-black tracking-wide text-white mb-3 uppercase">
                     {card.title}
@@ -120,7 +113,6 @@ export default function AboutAndCategories() {
                   </p>
                 </div>
 
-                {/* Action CTA Button */}
                 <button className="flex items-center space-x-2 text-[#E63946] group-hover:text-red-400 font-black text-sm uppercase tracking-widest cursor-pointer self-start transition-colors bg-transparent border-none p-0">
                   <span>LEARN MORE</span>
                   <FiArrowRight className="w-4 h-4 transition-transform duration-300 group-hover:translate-x-1" />

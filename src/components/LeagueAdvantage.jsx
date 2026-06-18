@@ -31,13 +31,10 @@ export default function LeagueAdvantage() {
     <section className="w-full bg-[#030303] text-white py-24 px-6 sm:px-10 lg:px-12 font-sans border-b border-zinc-900 select-none">
       <div className="max-w-[1440px] mx-auto">
         
-        {/* items-stretch forces both columns to dynamically share the exact same height */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-stretch">
-          
-          {/* ================= LEFT COLUMN: ADVANTAGES LIST ================= */}
+
           <div className="lg:col-span-7 flex flex-col justify-between py-2">
             
-            {/* Header Titles (Strictly Big Scaling) */}
             <div className="mb-14">
               <span className="text-[#E63946] font-bold tracking-widest text-[30px] uppercase block mb-3">
                 WHY REGISTER ?
@@ -47,17 +44,14 @@ export default function LeagueAdvantage() {
               </h2>
             </div>
 
-            {/* Content Rows Matrix */}
             <div className="flex flex-col space-y-10">
               {advantages.map((item, index) => (
                 <div key={index} className="flex items-start space-x-6 group">
                   
-                  {/* Icon Container with fixed dimension scaling */}
                   <div className="flex-shrink-0 p-1 mt-1">
                     {item.icon}
                   </div>
                   
-                  {/* Metadata Text Flow */}
                   <div className="flex flex-col space-y-2">
                     <h3 className="text-2xl font-black text-white tracking-wide uppercase transition-colors group-hover:text-red-400">
                       {item.title}
@@ -73,7 +67,6 @@ export default function LeagueAdvantage() {
 
           </div>
 
-          {/* ================= RIGHT COLUMN: MATCHED HEIGHT IMAGE WRAPPER ================= */}
           <div className="lg:col-span-5 flex flex-col h-full w-full">
             <div className="w-full h-full rounded-2xl overflow-hidden border border-zinc-800/60 bg-[#0d0d0f]/40 p-4 shadow-2xl shadow-blue-900/10 transition-all duration-300 hover:border-zinc-700 flex">
               <img 

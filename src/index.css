@@ -1,8 +1,6 @@
 @import "tailwindcss";
-/* Google Fonts se Orbitron ko import kiya */
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700;800;900&display=swap');
 
-/* Tailwind v4 ka configuration block */
 @theme {
   --font-sans: 'Orbitron', sans-serif;
 }

@@ -1,16 +1,37 @@
-# React + Vite
+# BOTLEAGUE - Static Web Interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A futuristic, high-performance static web platform designed for **BOTLEAGUE**. This project was built as a frontend implementation for the **BotMakers Pvt Ltd** Full Stack Developer Intern assignment, focusing on advanced grid layouts, strict dark-themed aesthetics, and modern responsive engineering.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo & Repository
+- **Live Deployment URL:** https://botleague-frontend.vercel.app/
+- **GitHub Repository:** https://github.com/Abuzar448/botleague-frontend
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🛠️ Tech Stack & Architecture
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend Library:** React.js (Vite build pipeline)
+- **Styling Engine:** Tailwind CSS v4 (CSS-first engine utilizing `@theme` variables)
+- **Icons:** Highly optimized native vector SVGs & React Icons
+- **Typography:** Orbitron (Global futuristic geometric typography configuration)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## ✨ Key Features Implemented
+
+1. **Brand Aesthetic Execution:** Translated the dark sci-fi/gaming aesthetic of BOTLEAGUE into production-ready UI components using optimized Tailwind utility layers.
+2. **Dynamic Sponsors Showcase:** Built a tailored box layout system for sponsors using `object-contain` boundary mapping to preserve asset ratios without stretching or clipping.
+3. **Tailwind v4 `@theme` Architecture:** Overrode the default `--font-sans` tokens with 'Orbitron' inside the main CSS entry point, eliminating structural layout shift across sub-components.
+4. **Adaptive Breakpoint Control:** Enforced clean responsive breakpoints (`sm`, `md`, `lg`) to scale seamlessly across standard mobile viewports up to `1440px` wide-screen layouts.
+5. **Clean Production Structure:** Completely modular architecture with semantic elements and zero bloated dependencies.
+
+---
+
+## 💻 Local Installation & Setup
+
+Execute the following commands to spin up the local development ecosystem:
+
+1. **Clone the Repository:**
+   ```bash
+   git clone [https://github.com/Abuzar448/botleague-frontend]
+   cd [botleague-frontend]

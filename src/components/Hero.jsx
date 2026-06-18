@@ -16,7 +16,6 @@ export default function Hero() {
         />
       </div>
 
-      {/* 2. REAL-TIME ALERT PILL BADGE: Absolutely anchored */}
       <div className="absolute top-6 right-6 sm:right-10 z-30 flex items-center gap-2.5 bg-black/80 backdrop-blur-md border border-zinc-800 px-4 py-2 rounded-full text-xs">
         <span className="flex h-2 w-2 relative">
           <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
@@ -31,23 +30,19 @@ export default function Hero() {
         </a>
       </div>
 
-      {/* 3. FOREGROUND TEXT CONTENT LAYER: Overlays on top of background system */}
       <div className="max-w-[1440px] mx-auto w-full px-6 sm:px-10 lg:pl-12 py-12 z-20 pointer-events-none">
         <div className="max-w-4xl pointer-events-auto">
           
-          {/* High Impact Massive Typography Overlay */}
           <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-[84px] font-black tracking-tight uppercase text-white leading-[0.9] mb-6 drop-shadow-2xl">
             India's Ultimate <br />
             <span className="tracking-wide">Robotics Arena</span>
           </h1>
 
-          {/* Core Subtext Paragraph */}
           <p className="text-zinc-300 text-sm md:text-xl font-medium max-w-xl mb-10 leading-relaxed drop-shadow-md">
             Build.Compete.Rank.The National <br className="hidden md:inline" /> 
             Ecosystem for Robotics Arena
           </p>
 
-          {/* Action Group Interactions */}
           <div className="flex flex-wrap gap-4">
             <button className="bg-[#E63946] hover:bg-red-700 text-white font-bold uppercase tracking-wider text-xs px-10 py-4 rounded-sm transition-all shadow-lg shadow-red-600/30 border border-red-500 cursor-pointer">
               Create Account

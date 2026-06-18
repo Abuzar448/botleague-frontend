@@ -4,7 +4,7 @@ import logoImg from '../assets/navbar_heading.png';
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
-  // Clean layout helper array to map links instead of hardcoding repetitive tailwind classes
+
   const navLinks = [
     { name: 'Events', href: '#events' },
     { name: 'Programs', href: '#programs' },
@@ -16,7 +16,6 @@ export default function Navbar() {
     <nav className="w-full bg-[#030303] border-b border-zinc-900 sticky top-0 z-50 font-sans">
       <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
         
-        {/* Logo Section */}
         <div className="flex items-center">
           <a href="#" className="flex items-center hover:opacity-90 transition-opacity">
             <img 
@@ -49,7 +48,6 @@ export default function Navbar() {
           </button>
         </div>
 
-        {/* Mobile View Toggle Controller */}
         <div className="flex md:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -72,7 +70,6 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Slidedown Overlay Layout for Mobile View */}
       {isOpen && (
         <div className="md:hidden bg-[#0A0A0C] border-b border-zinc-900" id="mobile-menu">
           <div className="px-4 pt-2 pb-6 space-y-2 text-center">
