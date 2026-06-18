@@ -8,7 +8,7 @@ import sport4 from '../assets/sport4.jpg'; // FPV Drone Racing
 import sport5 from '../assets/sport5.jpg'; // Robo Hockey
 import sport6 from '../assets/sport2.jpg'; // Robo War
 
-export default function CompetitionDisciplines() {
+export default function Sports() {
   const disciplines = [
     {
       title: "Robo Race",
