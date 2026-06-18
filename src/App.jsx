@@ -6,6 +6,7 @@ import UserJourney from './components/UserJourney';
 import AboutAndCategories from './components/AboutAndCategories';
 import CompetitionDisciplines from './components/Sports';
 import LeagueAdvantage from './components/LeagueAdvantage';
+import JoinEcosystem from './components/JoinEcosystem';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AboutAndCategories></AboutAndCategories>
       <CompetitionDisciplines></CompetitionDisciplines>
       <LeagueAdvantage></LeagueAdvantage>
+      <JoinEcosystem></JoinEcosystem>
     </div>
   )
 }
