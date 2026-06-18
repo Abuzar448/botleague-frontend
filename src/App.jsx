@@ -4,6 +4,7 @@ import Hero from './components/Hero';
 import Competitions from './components/Compitions&Events';
 import UserJourney from './components/UserJourney';
 import AboutAndCategories from './components/AboutAndCategories';
+import CompetitionDisciplines from './components/Sports';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Competitions></Competitions>
       <UserJourney></UserJourney>
       <AboutAndCategories></AboutAndCategories>
+      <CompetitionDisciplines></CompetitionDisciplines>
     </div>
   )
 }
